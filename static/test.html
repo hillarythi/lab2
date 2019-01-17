@@ -26,7 +26,7 @@
 		<div class="jumbotron">
 			<h1>Michael Bernstein</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-			<button id="testjs">Test Javascript</button>
+			<button id="testjs" class="btn btn-primary btn-lg">Test Javascript</button>
 		</div>
 
 
@@ -90,12 +90,6 @@
 	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/introHCI.js"></script>
-	<script>
-		$("#testjs").click(function(e){
-			$('.jumbotron h1').text("Javascript is connected");
-		});
-		//if it was in a function then Id have to put onclick in the tag above, but then it
-		//would need two clicks to change :)
-	</script>
+	
 </body>
 </html>
